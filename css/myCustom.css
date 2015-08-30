@@ -1,0 +1,110 @@
+@font-face {
+	font-family: bertica;
+	src: url(../fonts/Bertica-Regular.ttf);
+
+}
+.container-fluid{
+	background-image: url(../images/background.jpg);
+	height: 100vh;
+}
+.col-md-4, .col-md-8{
+	/*border: solid 1px white;*/
+	
+	height: 80px;
+
+}
+.col-md-5{
+	/*border: solid 1px white;*/
+	height: 505px;
+	padding-top: 50px;
+}
+.col-md-7{
+	/*border: solid 1px white;*/
+	height: 505px;
+}
+.col-md-12{
+	background:grey;
+	/*border: solid 1px white;*/
+	height: 50px;
+	display: inline-block;
+}
+#name{
+	margin: 5px;
+	padding-left: 150px;
+	color: white;
+	font-size: 25pt;
+	font-family: bertica;
+	font-weight: bold;
+}
+#title{
+	padding-left: 185px;
+	color: grey;
+	font-family: bertica;
+	font-size: 15pt;
+	font-weight: bold;
+}
+#headshot{
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	overflow: hidden;
+
+}
+#socialBanner{
+	padding-top: 3px;
+	display: inline-block;
+	position: absolute;
+	right: 200px;
+	}
+#email{
+	display: inline-block;
+	color: white;
+    font-size: 12pt;
+	font-weight: bold;
+	font-family: bertica;
+	position: absolute;
+	left: 100px;
+}
+nav{
+   
+}
+nav ul{
+	position: absolute;
+	right: 130px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	color: red;
+	font-size: 19pt;
+	font-family: bertica;
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px;
+	padding-top: 10px;
+}
+nav ul li:hover{
+	cursor: pointer;
+	color: white;
+
+}
+#introHeader{
+	padding-top: 15px;
+	font-size: 50pt;
+	font-family: bertica;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	color: white;
+	display: none;
+}
+#introContent{
+	padding: 5px;
+	width: 600px;
+	height:400px;
+	color: white;
+	font-size: 15pt;
+	font-family: bertica;
+	overflow: scroll;
+	display: none;
+}
