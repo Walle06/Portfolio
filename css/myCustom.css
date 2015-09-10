@@ -1,3 +1,6 @@
+body{
+	overflow: hidden;
+}
 @font-face {
 	font-family: bertica;
 	src: url(../fonts/Bertica-Regular.ttf);
@@ -36,7 +39,7 @@
 }
 .col-md-4, .col-md-8{
 	/*border: solid 1px white;*/
-	
+	padding-top: 8px;
 	height: 80px;
 
 }
@@ -77,6 +80,8 @@
 	font-weight: bold;
 }
 #headshot{
+	/*background: grey;*/
+	/*padding-top: 10px;*/
 	margin: 0 auto;
 	width: 300px;
 	height: 300px;
@@ -109,11 +114,11 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	list-style: none;
-	color: red;
+	color: yellow;
 	font-size: 19pt;
 	font-family: bertica;
-	font-weight: bold;
-	font-style: italic;
+	font-weight: bolder;
+	/*font-style: italic;*/
 	margin: 10px;
 	padding-top: 10px;
 }
@@ -162,7 +167,7 @@ nav ul li:hover{
 	background: rgba(173,52,0,1);
 	text-align: left;
 }
-div span a {
+#name a {
 	text-decoration: none;
 	color: white;
 }
@@ -226,6 +231,7 @@ div span a {
 #contactHalf2{
 	/*border: solid 1px white;*/
 	height: 450px;
+	display: none;
 
 }
 #contactInfo{
@@ -243,3 +249,302 @@ div span a {
 	position: absolute;
 	right: 17px;
 }
+
+/*#desktop_hello{ display:block;}
+#mobile_hello{ display:none;}*/
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+
+
+	 html, body{
+	 	overflow: hidden;
+	 }
+
+	 .container-fluid { 
+	 	background-image: url(../images/background.jpg);
+	 	height: 650px;
+	 	
+      }
+      nav{
+     
+     }
+     nav ul{
+
+     	position: absolute;
+		right:0px;
+     	/*border:solid 1px green;*/
+     }
+     nav ul li{
+     	width: 100px;
+     	text-align: center;
+        display: block;
+	    background: grey;
+	    list-style: none;
+	    color: red;
+	    font-size: 8pt;
+	    font-family: bertica;
+	    font-style: italic;
+	    padding-left: 0px;
+     }
+     nav ul li:hover{
+	   cursor: pointer;
+	   color: white;
+
+     }
+     .col-md-4{
+        /*border: solid 1px white;*/
+	    height: 50px;
+	    text-align: left;
+	    float: left;
+     }
+     .col-md-8 {
+	    /*border: solid 1px white;*/
+	    height: 150px;
+	    width: 140px;
+	    float:left;
+     }
+     .col-md-5{
+	    /*border: solid 1px white;*/
+	    width: 110px;
+	    height: 100px;
+	    padding-top: 10px;
+	    position: absolute;
+	    top: 55px;
+	    left: 0px;
+
+     }
+     .col-md-7{
+	     /*border: solid 1px white;*/
+	     width: 200px;
+	     height: 130px;
+	     display: inline-block;
+	    float: left;
+     }
+     #name{
+	    padding-left: 0px;
+	    color: white;
+	    font-size: 10pt;
+	    font-family: bertica;
+	    font-weight: bold;
+	    /*border:solid 1px red;*/
+     }
+     #title{
+	    padding-left: 25px;
+	    text-align: left;	    
+	    color: grey;
+	    font-family: bertica;
+	    font-size: 10pt;
+	    font-weight: bold;
+	    position: absolute;
+	    left: 0px;
+     }
+    #headshot{
+	    width: 80px;
+	    height: 80px;
+	    border-radius: 40px;
+	    overflow: hidden;
+     }
+     #social{
+     	margin-left: 10px;
+     	text-align: left;
+     	padding-left: 0px;
+	    background:rgba(173,52,0,1);
+	    /*border: solid 1px white;*/
+	    height: 35px;
+	    width: 300px;
+	    display:inline-block;
+	    float: left;
+     }
+     #socialBanner{
+     	/*border: solid 1px white;*/
+     	margin-top: 0px;
+     	width: 100px;
+     	height: 30px;
+	    padding-top: 0px;
+	    display: block;
+	    float: right;
+	    /*position:absolute;
+	    bottom: 0px;
+	    left: 0px;*/
+	 }
+     #email{
+	    /*border: solid 1px white;*/
+	    width: 80%;
+	    color: white;
+        font-size: 6pt;
+	    font-weight: bold;
+	    font-family: bertica;
+	    float: left;
+	    /*position: relative;
+	    top: 0px;
+	    left: 0px;*/
+     }
+     #email img{
+     	width: 10%;
+     }
+     #introHeader{
+	    padding-top: 5px;
+	    font-size: 10pt;
+	    font-family: bertica;
+	    font-weight: bolder;
+	    letter-spacing: 0px;
+	    color: white;
+
+     }
+    #introContent{
+    	/*border: solid 1px red;*/
+        padding-top: 5px;
+	    width: 175px;
+	    height:125px;
+	    color: white;
+	    font-size: 7pt;
+	    font-family: bertica;
+     }
+     .col-md-3{
+     	border: solid 1px white;
+     	width: 100px;
+     	height: 100px;
+     	overflow: hidden;
+     	position: absolute;
+     	top: 50px;
+     	left: 15px;
+
+     }
+     .col-md-9{
+     	height: 300px;
+     	float: left;
+
+     }
+     #aboutContent{
+	    padding-top: 5px;
+	    border: solid 2px rgba(173,52,0,1);
+	    background: grey;
+	    width: 300px;
+	    height: 200px;
+	    text-align: center;
+	    font-family: bertica;
+	    font-size: 7pt;
+	    color: white;
+	    display: none;
+	    float: right;
+      }
+      #aboutSocial{
+	    position: relative;
+	    top: 0px;
+	    width: 297px;
+	    height:25px;
+	    background: rgba(173,52,0,1);
+	    text-align: left;
+      }
+      .col-md-11{
+	     border: solid 1px red;
+	     margin:0 auto;
+	     height: 250px;
+	     overflow: scroll;
+     }
+      #resumeHeader{
+	    margin-left: 165px;
+	    /*border: solid 1px red;*/
+	    width: 100%;
+	    height: 25px;
+	    text-align: center;
+	    color: white;
+	    font-size: 10pt;
+	    font-family: bertica;
+	    font-weight: bolder;
+
+     }
+      #resumeBody{
+	     /*border: solid 1px white;*/
+	     height: 50px;
+     }
+      #resumeContent{
+	     display: none;
+     }
+     .col-md-2{
+	    padding-top: 5px;
+	    /*border: solid 1px red;*/
+	    
+	    height: 40px;
+	    color: white;
+	    font-size: 10pt;
+	    font-family: bertica;
+	    font-weight: bolder;
+	    float: left;
+     }
+     .col-md-10{
+	    /*border: solid 1px red;*/
+	    background: rgba(179,181,186,.4);
+
+	    height: 100px;
+	    padding-top: 5px;
+	    color: white;
+	    font-family: bertica;
+	    font-size: 8pt;
+	    float: right;
+     }
+     #projectBody{
+	    /*border: solid 1px white;*/
+	    height: 350px;
+	    overflow: scroll;
+     }
+     #galleryLayout{
+	    /*border: solid 1px white;*/
+	    height: 225px;
+     }
+     #projectFooter{
+	    height: 100px;
+	    background: rgba(179,181,186,.4);
+	    color: white;
+	    text-align: center;
+	    font-family: bertica;
+	    font-size: 10pt;
+	    font-style: italic;
+	    font-weight: bold;
+	    display: none;
+     }
+     #contactSection{
+	    /*border: solid 1px white;*/
+	    height: 250px;
+	    color: white;
+	    overflow: scroll;
+     }
+     #contactHalf1{
+        background: rgba(179,181,186,.4);
+	    /*border: solid 1px white;*/
+	    height: 250px;
+	    font-size: 15pt;
+	    font-family: bertica;
+	    font-weight: bolder;
+	    text-align: center;
+	    color: white;
+	    border-top-left-radius: 15px;
+	    border-top-right-radius: 20px;
+	    border-bottom-left-radius: 20px;
+	    border-bottom-right-radius: 15px;
+     }
+     #contactHalf2{
+	    /*border: solid 1px white;*/
+	    height: 250px;
+
+     }
+     #contactInfo{
+	
+	    font-size: 10pt;
+	    font-family: bertica;
+	    text-align: center;
+	    color: white;
+     }
+     #infoColor{
+    	background: rgba(179,181,186,.2);
+	    color: white;
+     }
+     #buttonPlace{
+	    position: absolute;
+	    right: 17px;
+     }
+
+
+   /*  #desktop_hello{ display:none;}
+     #mobile_hello{ display:block;}*/
+  }
