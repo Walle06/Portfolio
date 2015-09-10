@@ -147,25 +147,32 @@ nav ul li:hover{
 	display: none;
 }
 #aboutContent{
-	padding-top: 5px;
+	padding-top: 0px;
 	border: solid 2px rgba(173,52,0,1);
 	background: grey;
 	width: 800px;
 	height: 400px;
+	display: none;
+}
+#aboutText{
+	padding:10px;
 	text-align: center;
 	font-family: bertica;
 	font-size: 15pt;
 	color: white;
-	display: none;
-
 }
 #aboutSocial{
+	padding-top: 3px;
 	position: relative;
-	top: 40px;
+	top: 0px;
 	width: 797px;
-	height:45px;
+	height:40px;
 	background: rgba(173,52,0,1);
 	text-align: left;
+	font-family: bertica;
+	font-size: 15pt;
+	font-weight: bolder;
+	color: white;
 }
 #name a {
 	text-decoration: none;
@@ -191,17 +198,141 @@ nav ul li:hover{
 	display: none;
 }
 #projectBody{
-	/*border: solid 1px white;*/
+	border: solid 1px white;
 	height: 450px;
+	overflow: scroll;
 }
 #galleryLayout{
 	/*border: solid 1px white;*/
 	height: 225px;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#galleryLayout2{
+	/*border: solid 1px white;*/
+	height: 225px;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#galleryLayout3{
+	/*border: solid 1px white;*/
+	height: 225px;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#galleryLayout4{
+	/*border: solid 1px white;*/
+	height: 225px;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#galleryLayout5{
+	/*border: solid 1px white;*/
+	height: 225px;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#galleryLayout6{
+	/*border: solid 1px white;*/
+	height: 225px;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#description{
+	background: rgba(0,0,0,.6);
+	/*border: solid 1px white;*/
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	width: 415px;
+	height: 225px;
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+}
+#description2{
+	background: rgba(0,0,0,.6);
+	/*border: solid 1px white;*/
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	width: 415px;
+	height: 225px;
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+}
+#description3{
+	background: rgba(0,0,0,.6);
+	/*border: solid 1px white;*/
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	width: 415px;
+	height: 225px;
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+}
+#description4{
+	background: rgba(0,0,0,.6);
+	/*border: solid 1px white;*/
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	width: 415px;
+	height: 225px;
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+}
+#description5{
+	background: rgba(0,0,0,.6);
+	/*border: solid 1px white;*/
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	width: 415px;
+	height: 225px;
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+}
+#description6{
+	background: rgba(0,0,0,.6);
+	/*border: solid 1px white;*/
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	width: 415px;
+	height: 225px;
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
 }
 #projectFooter{
 	height: 100px;
 	background: rgba(179,181,186,.4);
 	color: white;
+	padding-top: 15px;
 	text-align: center;
 	font-family: bertica;
 	font-size: 15pt;
